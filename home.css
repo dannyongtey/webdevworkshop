@@ -1,0 +1,249 @@
+header.navbar {
+    background-color: black;
+    position: fixed;
+    display: block;
+    width: 100%;
+}
+
+body {
+    background-color: #dedcdc;
+}
+
+.navbar .app-title {
+	text-decoration: none;
+    color: white;
+    font-size: 25px;
+    float: left;
+    font-size: 1.7em;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding: 8px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.navbar .nav {
+		margin-top: 10px;
+    float: right;
+  	margin-right: 40px;
+}
+
+
+.navbar .nav li {
+	float: left;
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+
+}
+
+.navbar .nav li~li {
+	margin-left: 30px;
+}
+
+.navbar .nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+
+.container {
+	padding: 80px;
+}
+
+.sidebar {
+    width: 30%;
+    float: left;
+}
+
+.sidebar > section, .content-container > section{
+    box-sizing: border-box;
+    padding-top: 20px;
+    background-color: #FFF;
+    width: 100%;
+    
+
+    box-shadow: 2px 2px 8px #888888;
+}
+
+/* Profile section */
+
+.sidebar .profile-section {
+    border-radius: 50px;
+    height: 300px;
+    text-align: center;
+}
+
+
+.profile-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+
+}
+
+.profile-section a {
+    display: block;
+    text-decoration: none;
+}
+
+.profile-section #name, .profile-section #handle{
+    margin-top: 5px;
+}
+
+.profile-section .stats{
+    margin: 10px auto;
+    padding: 20px 20px;
+    border-top: 1px solid #e5e5e5;
+    width: 80%;
+}
+
+.profile-section .stats a{
+    float: left;
+    width: 50%;
+}
+
+.profile-section .stats strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.profile-section #name, .profile-section #following, .profile-section #follower {
+    color: #000;
+}
+
+.profile-section #handle{
+    color: rgba(0,0,0,0.4);
+
+}
+
+.profile-section a#name:hover{
+    text-decoration: underline;
+}
+
+.profile-section a#following:hover, .profile-section a#follower:hover{
+    color: blue;
+}
+
+
+/* Trending section */
+.trending-section {
+    margin-top: 50px;
+    padding: 50px 0;
+    border-radius: 50px;
+}
+
+.trending-section h3 {
+    font-size: 1.8em;
+    margin-left: 10px;
+}
+
+.trending-section ul {
+    margin: 20px 0 0 10px;
+    list-style-type: none;
+
+}
+
+.trending-section ul li~li {
+    margin-top: 10px;
+}
+
+.trending-section a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.4);
+}
+
+.trending-section .trend-title {
+    display: block;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 3px;
+    font-size: 1em;
+}
+
+.trending-section a:hover {
+    text-decoration: underline;
+}
+
+.content-container {
+    width: 65%;
+    float: left;
+    margin-left: 5%;
+}
+
+.content-container .new-post {
+    height: 70px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.new-post img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+.content-container .post-section {
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.new-post form {
+    width: 80%;
+    float: left;
+}
+
+.new-post input {
+    float: left;
+}
+
+.new-post .btn {
+    float: left;
+}
+
+.new-post #file-input {
+    display: none;
+}
+
+.new-post .post-input {
+    height: 50px;
+    width: 90%;
+}
+
+.post-section {
+    padding-bottom: 20px;
+}
+
+.post-section h3 {
+    margin-left: 20px;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.post-section ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.post-section li~li {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(0,0,0,0.4);
+
+}
+
+.post-section .gravatar {
+    float: left;
+    margin-right: 10px;
+}
+
+.post-section .content {
+    display: block;
+    padding-top: 20px;
+}

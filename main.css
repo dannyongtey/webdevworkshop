@@ -1,0 +1,417 @@
+header.navbar {
+    background-color: white;
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 99;
+}
+
+.navbar .app-title {
+	text-decoration: none;
+    color: black;
+    float: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.navbar .nav {
+	margin-top: 15px;
+    float: right;
+  	margin-right: 40px;
+  	list-style-type: none;
+}
+
+.navbar .nav li {
+	float: left;
+}
+
+.navbar .nav li~li {
+	margin-left: 30px;
+}
+
+.navbar .nav a {
+	text-decoration: none;
+    color: rgb(102,102,102);
+	font-size: 16px;
+}
+
+.content-container-post {
+    padding: 80px;
+}
+
+.post-title {
+	font-size: 1.5em;
+}
+
+ol.posts {
+	list-style-type: none;
+}
+
+.posts li {
+	border-top: 1px solid #e8e8e8;
+	margin-top: 15px;
+	padding-top: 15px;
+}
+
+.posts .gravatar {
+	float: left;
+	margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+.posts .user a{
+	text-decoration: none;
+}
+
+.posts .user a:hover {
+	text-decoration: underline;
+}
+
+.posts .content, .posts .timestamp{
+	display: block;
+	margin-top: 0.5em;
+}
+
+.posts .timestamp {
+	color: #777777;
+}
+
+
+a{
+	color : #1DA1F2;
+	text-decoration: none;
+}
+
+a:hover{
+	color : #1173af;
+}
+
+body{
+	background : #e6ecf0;
+    font-family: 'Archivo', sans-serif;
+}
+.cover-photo{
+    padding: 150px;
+    background: url(coverpic.jpg) no-repeat center fixed;
+    position: relative;
+}
+.cover-photo .profile-photo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cover-photo .profile-photo img{
+    border-radius: 100%;
+    box-shadow: 0px 0px 0px 5px white;
+    color: black;
+    max-width: 200px;
+}
+
+.profile-content{
+	padding: 40px;
+	background: rgba(255,255,255,0.8);
+	float: left;
+	border-radius: 10px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 100px 0;
+}
+
+.profile-content .profile-content-table{
+	list-style-type: none;
+    margin: 20px 0;
+}
+
+.profile-content .profile-content-table li{
+	margin : 8px;
+}
+
+.grey{
+	color: rgb(102,102,102);
+}
+
+
+.form-wrapper{
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%,-30%);
+}
+
+.form-wrapper form{
+	padding: 20px 80px 20px 20px;
+	background-color: #fff;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	box-shadow: 1px 2px 8px 1px rgb(195, 195, 195);
+}
+
+.form-wrapper form .input-text,
+.form-wrapper form .input-text,
+.form-wrapper form label{
+	float: left;
+}
+
+.form-wrapper form label{
+    float: left;
+    min-width: 200px;
+	margin: auto 20px;
+	text-align: right;
+    color: rgb(102,102,102);
+}
+
+.form-wrapper .form-item{
+	margin: 20px 0;
+    display: flex;
+}
+.form-wrapper form .input-text,
+.form-wrapper form .input-password{
+	padding: 6px 12px;
+	background-color: #fff;
+	border: 1px solid #ccd0d2;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-wrapper form .input-submit{
+	color: #fff;
+	background-color: #1f648b;
+	border-color: transparent;
+	padding: 6px 10px;
+	border-radius: 6px;
+	font-size: 14px;
+	position: relative;
+	left: 80%;
+	outline: none;
+	opacity: 1;
+}
+
+.form-wrapper form .input-submit:hover{
+	opacity: 0.8;
+}	
+
+
+
+
+
+
+.container {
+	padding: 80px;
+}
+
+.sidebar {
+    width: 30%;
+    float: left;
+}
+
+.sidebar > section, .content-container > section{
+    box-sizing: border-box;
+    padding-top: 20px;
+    background-color: #FFF;
+    width: 100%;
+    
+
+    box-shadow: 2px 2px 8px #888888;
+}
+
+/* Profile section */
+
+.sidebar .profile-section {
+    border-radius: 50px;
+    height: 300px;
+    text-align: center;
+}
+
+
+.profile-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+
+}
+
+.profile-section a {
+    display: block;
+    text-decoration: none;
+}
+
+.profile-section #name, .profile-section #handle{
+    margin-top: 5px;
+}
+
+.profile-section .stats{
+    margin: 10px auto;
+    padding: 20px 20px;
+    border-top: 1px solid #e5e5e5;
+    width: 80%;
+}
+
+.profile-section .stats a{
+    float: left;
+    width: 50%;
+}
+
+.profile-section .stats strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.profile-section #name, .profile-section #following, .profile-section #follower {
+    color: #000;
+}
+
+.profile-section #handle{
+    color: rgba(0,0,0,0.4);
+
+}
+
+.profile-section a#name:hover{
+    text-decoration: underline;
+}
+
+.profile-section a#following:hover, .profile-section a#follower:hover{
+    color: blue;
+}
+
+
+/* Trending section */
+.trending-section {
+    margin-top: 50px;
+    padding: 50px 0;
+    border-radius: 50px;
+}
+
+.trending-section h3 {
+    font-size: 1.8em;
+    margin-left: 10px;
+}
+
+.trending-section ul {
+    margin: 20px 0 0 10px;
+    list-style-type: none;
+
+}
+
+.trending-section ul li~li {
+    margin-top: 10px;
+}
+
+.trending-section a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.4);
+}
+
+.trending-section .trend-title {
+    display: block;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 3px;
+    font-size: 1em;
+}
+
+.trending-section a:hover {
+    text-decoration: underline;
+}
+
+.content-container {
+    width: 65%;
+    float: left;
+    margin-left: 5%;
+}
+
+.content-container .new-post {
+    height: 70px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.new-post img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+.content-container .post-section {
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.new-post form {
+    width: 90%;
+    float: left;
+}
+
+.new-post input {
+    float: left;
+    outline: none;
+}
+
+.new-post .btn {
+    float: left;
+}
+
+.new-post #file-input {
+    display: none;
+}
+
+.new-post .post-input {
+    height: 50px;
+    width: 85%;
+}
+
+.new-post label {
+    float: left;
+}
+
+.new-post .btn {
+    height: 100%;
+    width: 8%;
+}
+
+.post-section {
+    padding-bottom: 20px;
+}
+
+.post-section h3 {
+    margin-left: 20px;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.post-section ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.post-section li~li {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(0,0,0,0.4);
+
+}
+
+
+.post-section .gravatar {
+    float: left;
+    margin-right: 10px;
+}
+
+.post-section .content {
+    display: block;
+    padding-top: 20px;
+}
+
