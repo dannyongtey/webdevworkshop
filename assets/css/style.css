@@ -44,6 +44,7 @@
 	font-size: 16px;
 	display: block;
 	padding : 15px;
+    font-weight: 700;
 }
 
 .navbar .navbar-right li a:hover,
