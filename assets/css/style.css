@@ -101,7 +101,7 @@ body{
 }
 .cover-photo{
     padding: 150px;
-    background: url(coverpic.jpg) no-repeat center fixed;
+    background: url('../images/coverpic.jpg') no-repeat center fixed;
     position: relative;
 }
 .cover-photo .profile-photo{
