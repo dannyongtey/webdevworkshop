@@ -9,20 +9,24 @@
 	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	<![endif]-->
 </head>
-
-<body>
+<body class = "preload">
 	<div class = "wrapper">
-		<nav class="navbar">
-			<a href="./index.html" class="app-title">TWITTER CLONE</a>
-			<ul class="navbar-right">
-				<li><a class = "normal-hover" href="./index.html">Home</a></li>
-				<li><a class = "smallfancy-hover" href="./profile.html">Account</a><div></div></li>
-				<li><a class = "normal-hover" href="#">Sign out</a></li>
-			</ul>
-		</nav>
+		<header>
+			<nav class="navbar">
+				<a href="./index.html" class="app-title">TWITTER CLONE</a>
+				<ul class="navbar-right">
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./profile.html">Account</a><div></div></li>
+					<li><a href="#">Sign out</a></li>
+				</ul>
+			</nav>
+		</header>
 
 		<section class = "form-wrapper" id = "register-form">
-			<form method = "POST" action="" oninput="FullName.value=FirstName.value + ' ' + LastName.value">
+			<div class = "form-title">
+				register
+			</div>
+			<form class = "form" method = "POST" action="" oninput="FullName.value=FirstName.value + ' ' + LastName.value">
 				<div class = "form-item">
 					<label>First Name :</label>
 					<input type = "text" name="FirstName" class = "input-text" required autofocus placeholder="FirstName" title = "Required"></input>
@@ -59,6 +63,11 @@
 			</form>
 		</section>
 	</div>
-</body>
 
+	<script type="text/javascript">
+		window.onload = function(){
+			document.getElementsByTagName('body')[0].classList.remove("preload");
+		}
+	</script>
+</body>
 </html>
