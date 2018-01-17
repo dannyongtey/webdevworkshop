@@ -276,7 +276,7 @@ a:hover{
 /* Profile section */
 
 .sidebar .profile-section {
-	border-radius: 50px;
+	
 	height: 300px;
 	text-align: center;
 }
@@ -344,7 +344,7 @@ a:hover{
 .trending-section {
 	margin-top: 50px;
 	padding: 50px 0;
-	border-radius: 50px;
+	
 }
 
 .trending-section h3 {
@@ -387,7 +387,7 @@ a:hover{
 
 .content-container .new-post {
 	height: 70px;
-	border-radius: 20px;
+
 	box-sizing: border-box;
 	padding: 10px;
 	border: 2px solid rgba(0,0,128,0.5);
@@ -407,8 +407,8 @@ a:hover{
 }
 
 .content-container .post-section {
-	margin-top: 5px;
-	border-radius: 20px;
+	margin-top: 20px;
+	
 }
 
 .new-post form {
